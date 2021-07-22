@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 站酷高端黑;
+    src:url(../其他/站酷高端黑.ttf);
+}
+
+
+
+@keyframes 左出 {
+    from {
+        opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes 右出 {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+.左出 {
+
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: 左出;
+}
+
+.右出 {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: 右出;
+}
+
+
+
+.左出动画 {
+    opacity: 0;
+    filter: alpha(opacity=0)\9;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0)
+}
+
+.is-visible .左出动画 {
+    opacity: 1; 
+    filter: alpha(opacity=100)\9;
+    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+    transition: opacity 0.8s, transform 0.8s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+
+.右出动画 {
+    opacity: 0;
+    filter: alpha(opacity=0)\9;
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0)
+}
+
+.is-visible .右出动画 {
+    opacity: 1; 
+    filter: alpha(opacity=100)\9;
+    -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+    transition: opacity 0.8s, transform 0.8s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}

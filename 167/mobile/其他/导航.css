@@ -1,0 +1,25 @@
+#导航 {
+    position: fixed;
+    z-index: 999;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(240, 240, 240);
+}
+
+#导航 ul li {
+    text-align: center;
+    display: inline-block;
+    width: 19%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#导航 ul li:hover {
+	background-color: rgb(215, 215, 215);
+	transition-duration: 0.316s;
+}
+
+#导航 ul li img {
+    width: 15%;
+}
