@@ -60,25 +60,25 @@ html, body{
 
 
 .上出 {
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: both;
     animation-name: 上出;
 }
 
 .下出 {
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: both;
     animation-name: 下出;
 }
 .左出 {
 
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: both;
     animation-name: 左出;
 }
 
 .右出 {
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-fill-mode: both;
     animation-name: 右出;
 }
@@ -144,7 +144,7 @@ html, body{
 }
 
 .is-visible .右出动画 {
-    opacity: 1; 
+    opacity: 1;
     filter: alpha(opacity=100)\9;
     -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
     transition: opacity 0.8s, transform 0.8s;
@@ -154,7 +154,7 @@ html, body{
 
 
 
-body {
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -162,7 +162,7 @@ body {
 
 
 #导航 {
-    opacity: 0.5; 
+    opacity: 0.6; 
     position: fixed;
     z-index: 999;
     top: 0;
@@ -175,11 +175,11 @@ body {
     width: auto;
     padding: 0px 2%;
     font-family: 站酷高端黑;
-    font-size: 30px;
+    font-size: 32px;
 }
 #导航 ul li a {
     text-decoration: none;
-    color: rgb(161, 161, 161);
+    color: rgb(161,161,161);
 }
 #标题 {
     width: 200px;
