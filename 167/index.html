@@ -1,77 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="shortcut icon" href="img/167图标.png">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="user-scalable=no">
-        <meta name="keywords"  content="167,叶络行,Minecraft,我的世界,167号世界,167号世界！！！,the 167 world,the 167 world!!!">
-        <meta name="description"  content="叶络行的Minecraft联机世界">
-        <title>167号世界 - The 167 World</title>
-        <script src="其他/jquery-1.8.3.min.js"></script>
-        <script src="其他/动画.js"></script>
-        <link href="其他/跳转.css" rel="stylesheet">
-        <script>
-            setTimeout(function () {
-                if (navigator.platform.indexOf('Win32') != -1) {
-                    window.location.href = "mframe/index.html";
-                } 
-            }, 4000);
-        </script>
-        <style>
-            body{
-                background-color: black;
-                background-image: url("img/跳转背景.bmp");
-                background-repeat: no-repeat;
-                background-size: 100%;
-            }
+<head>
+    <link rel="shortcut icon" href="img/167图标.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no">
+    <meta name="keywords" content="167,叶络行,Minecraft,我的世界,167号世界,167号世界！！！,the 167 world,the 167 world!!!">
+    <meta name="description" content="叶络行的Minecraft联机世界">
+    <meta http-equiv="refresh" content="4;url=mframe/index.html">
+    <title>167号世界 - The 167 World</title>
+    <script src="其他/jquery-1.8.3.min.js"></script>
+    <script src="其他/动画.js"></script>
+    <link href="其他/跳转.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            background-image: url("img/跳转背景.bmp");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
 
-            #标题{
+        #标题 {
             font-size: 360%;
             font-family: 站酷高端黑;
             color: snow;
             text-align: center;
             margin-top: 130px;
-            }
+        }
 
-            #进度{
+        #进度 {
             font-size: 35px;
             color: white;
             text-align: center;
             margin-top: 130px;
-            }
+        }
 
-            #进度::before{
+            #进度::before {
                 content: "Loading...  ";
             }
 
-            #进度::after{
+            #进度::after {
                 content: "%";
             }
 
-            .左出{
-                width: 50%;
-                height: 5px;
-                background-color: white;
-                position: absolute;
-                left: 0%;
-                top: 60%;
-                margin-top: -150px;
-                box-shadow: 0 0 20px white;
-            }
+        .左出 {
+            width: 50%;
+            height: 5px;
+            background-color: white;
+            position: absolute;
+            left: 0%;
+            top: 60%;
+            margin-top: -150px;
+            box-shadow: 0 0 20px white;
+        }
 
-            .右出{
-                width: 50%;
-                height: 5px;
-                background-color: white;
-                position: absolute;
-                right: 0%;
-                top: 60%;
-                margin-top: -150px;
-                box-shadow: 0 0 20px white;
-            }
-        </style>
-    </head>
+        .右出 {
+            width: 50%;
+            height: 5px;
+            background-color: white;
+            position: absolute;
+            right: 0%;
+            top: 60%;
+            margin-top: -150px;
+            box-shadow: 0 0 20px white;
+        }
+    </style>
+</head>
     <body>
         <p id="标题">- THE 167 WORLD -</p>
         <p id="进度">0</p>
