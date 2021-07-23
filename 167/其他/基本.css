@@ -144,7 +144,7 @@ html, body{
 }
 
 .is-visible .右出动画 {
-    opacity: 1; 
+    opacity: 1;
     filter: alpha(opacity=100)\9;
     -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
     transition: opacity 0.8s, transform 0.8s;
@@ -154,7 +154,7 @@ html, body{
 
 
 
-body {
+body{
     margin: 0px;
     padding: 0px;
 }
