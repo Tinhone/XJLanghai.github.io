@@ -12,13 +12,11 @@
         <script src="其他/动画.js"></script>
         <link href="其他/跳转.css" rel="stylesheet">
         <script>
-            setTimeout( function(){
-                if(navigator.platform.indexOf('Win32')!=-1){ 
-                    window.location.href="home/index.html";
-                }else{ 
-                    window.location.href="mobile/index.html";
+            setTimeout(function () {
+                if (navigator.platform.indexOf('Win32') != -1) {
+                    window.location.href = "mframe/index.html";
                 } 
-            }, 4500 ); 
+            }, 4000);
         </script>
         <style>
             body{
@@ -29,21 +27,22 @@
             }
 
             #标题{
-            font-size: 250%;
+            font-size: 360%;
             font-family: 站酷高端黑;
-            color: white;
+            color: snow;
             text-align: center;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin-top: -180px;
-            margin-left: -200px;
+            margin-top: 130px;
             }
 
             #进度{
-            font-size: 25px;
+            font-size: 35px;
             color: white;
             text-align: center;
+            margin-top: 130px;
+            }
+
+            #进度::before{
+                content: "Loading...  ";
             }
 
             #进度::after{
@@ -79,16 +78,18 @@
         <div class="左出"></div>
         <div class="右出"></div>
 
+
         <script>
             var num = 0;
-            var t = setInterval(function(){
-            num++;
-            var 进度 = document.getElementById("进度");
-            进度.innerText = num;
-                 if(num==100){
-                     clearInterval(t);
-                 }       
-            },40);
+            var t = setInterval(function () {
+                num++;
+                var 进度 = document.getElementById("进度");
+                进度.innerText = num;
+                if (num == 100) {
+                    clearInterval(t);
+                }
+            }, 30);
         </script>
     </body>
 </html>
+
