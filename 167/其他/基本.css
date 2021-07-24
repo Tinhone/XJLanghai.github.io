@@ -270,26 +270,3 @@ body{
 	transition: opacity 1.7s, transform 1.7s;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0)
-}
-
-
-#ye {
-	background-image: url( ../img/ylx.jpg );
-	background-repeat: no-repeat;
-	background-size: 100%;
-	box-shadow: 0px 0px 15px #888888;
-}
-.ye_2 {
-	border: 3px solid;
-	border-color: white;
-}
-.op {
-	box-shadow: 0px 0px 15px #888888;
-}
-.qq {
-	box-shadow: 0px 0px 15px #888888;
-}
-
-.map {
-    box-shadow: 0px 0px 15px #888888;
-}
