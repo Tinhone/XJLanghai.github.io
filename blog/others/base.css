@@ -28,33 +28,37 @@ body {
 }
 
 #导航 {
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     top: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-#导航栏 ul li {
+#导航 ul {
+    text-align: right;
+}
+#导航 ul li {
     display: inline-block;
-    padding: 0px 2%;
+    width: auto;
+    padding: 0px 1%;
     font-size: 30px;
-    color: rgb(200, 200, 200);
+    color: rgb(161,161,161);
 }
-#导航栏 ul li a {
+#导航 ul li a {
     text-decoration: none;
+    color: rgb(161,161,161);
 }
 #标题 {
-    padding: 6px;
+    padding: 12px;
     float: left;
 }
 #主标题 {
-    padding: 5px;
-    font-size: 40px;
-    color: rgb(200, 200, 200);
-    float: right;
     font-family: 宋;
-}
-#导航栏{
-    text-align: right;
+    font-size: 46px;
+    padding: 6px;
+    color: rgb(161,161,161);
+    float: right;
 }
 
 a {
