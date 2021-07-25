@@ -271,17 +271,3 @@ body{
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0)
 }
-
-
-#ye {
-	background-image: url( ../img/ylx.jpg );
-	background-repeat: no-repeat;
-	background-size: 100%;
-	box-shadow: 0px 0px 15px #888888;
-}
-.op {
-	box-shadow: 0px 0px 15px #888888;
-}
-.qq {
-	box-shadow: 0px 0px 15px #888888;
-}
