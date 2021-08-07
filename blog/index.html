@@ -9,13 +9,33 @@
         <link href="others/base.css" rel="stylesheet">
         <script src="others/base.js"></script>
         <script src="others/love.js"></script>
+
+        <script src="others/jquery-1.8.3.min.js"></script>
+        <link rel="stylesheet" href="live2d/waifu.css">
     </head>
     <body>
         <!--背景音乐-->
         <audio autoplay loop>
             <source src="http://music.163.com/song/media/outer/url?id=5221167.mp3">
         </audio>
-        
+
+        <!--live2d-->
+        <div class="waifu">
+            <div class="waifu-tips"></div>
+            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+            <div class="waifu-tool">
+                <span class="fui-chat"></span>
+                <span class="fui-eye"></span>
+                <span class="fui-user"></span>
+                <span class="fui-photo"></span>
+                <span class="fui-cross"></span>
+            </div>
+        </div>
+            
+        <script src="live2d/waifu-tips.js"></script>
+        <script src="live2d/live2d.js"></script>
+        <script type="text/javascript">initModel("live2d/")</script>
+
         <!--导航-->
         <div id="导航">
             <div id="标题">
