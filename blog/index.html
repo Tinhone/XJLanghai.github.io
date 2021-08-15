@@ -35,7 +35,7 @@
         <!--live2d-->
         <div class="waifu">
             <div class="waifu-tips"></div>
-            <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+            <canvas id="live2d" width="280px" height="250px" class="live2d"></canvas>
             <div class="waifu-tool">
                 <span class="fui-chat"></span>
                 <span class="fui-eye"></span>
@@ -57,11 +57,17 @@
             </div>
             <ul style="font-family: Monda;">
                 <li onclick="a(0)">HOME</li>
-                <li onclick="a(1)">CATEGORIES</li>
-                <li onclick="a(2)">ABOUT</li>
+                <li onclick="a(1)">TAGS</li>
             </ul>
         </div>
 
+        <!--个人信息-->
+        <div style="width: 18%;position: absolute;top: 70vh;left: 2.8%;background-color: white;">
+            <div style="text-align: center;margin-top: 80px;">
+                <img src="imgs/头像.png" style="width: 40%;">
+                <h1 style="color: rgb(0, 123, 255);">螂海</h1>
+            </div>
+        </div>
 
         <!--HOME-->
         <div id="a1">
@@ -71,10 +77,10 @@
 
             <!--正文-->
             <div style="height: 10vh;"></div>
-            <div style="margin:0 auto;width: 50%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+            <div style="margin: 0 auto;width: 50%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
                 <h1 style="text-align: center;">使用GitHub搭建个人博客</h1>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用GitHub搭建个人博客，将网页存放至仓库即可</p>
-                <div id="变色bg" style="margin:0 auto;text-align: center;width: 20%;padding: 1%;border:3px solid black;">
+                <div id="变色bg" style="margin: 0 auto;text-align: center;width: 20%;padding: 1%;border:3px solid black;">
                     <a href="pages/使用GitHub搭建个人博客.html" target="_blank" style="color: gray;">
                         <div id="变色">阅读全文»</div>
                     </a>
@@ -83,11 +89,12 @@
         </div>
 
 
-        <!--CATEGORIES-->
+        <!--TAGS-->
         <div id="a2" style="display: none;">
             <!--导航图-->
-            <img src="imgs/CATEGORIES.png" style="width: 100%;">
-            <p style="color: white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 525px;">人有悲欢离合，月有阴晴圆缺，此事古难全。</p>
+            <img src="imgs/TAGS.png" style="width: 100%;">
+            <p style="color:white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 450px;">弱小和无知不是生存的障碍，傲慢才是。</p>
+            <br><br><br><br><br><br><br><br><br><br>
 
             <!--正文-->
             <div>
@@ -110,7 +117,7 @@
                 <hr style="width: 60%;">
             </div>
                 <!--bilibili-->
-            <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+            <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
                 <a href="https://space.bilibili.com/442729189" target="_blank" style="color: black;">
                     <img src="https://www.bilibili.com/favicon.ico" style="width: 32px;">
                     <p>昵称：螂海</p>
@@ -119,7 +126,7 @@
             </div>
             <br>
                 <!--github-->
-            <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+            <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
                 <a href="https://github.com/XJLanghai" target="_blank" style="color: black;">
                     <img src="https://github.com/favicon.ico" style="width: 32px;">
                     <p>昵称：XJLanghai</p>
@@ -127,7 +134,7 @@
             </div>
             <br>
                 <!--lofter-->
-            <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+            <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
                 <a href="https://xjlanghai.lofter.com/" target="_blank" style="color: black;">
                     <img src="https://www.lofter.com/favicon.ico" style="width: 32px;">
                     <p>昵称：螂海</p>
@@ -135,7 +142,7 @@
             </div>
             <br>
                 <!--qq-->
-            <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+            <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
                 <a href="http://wpa.qq.com/msgrd?v=3&uin=654126913&site=qq&menu=yes" target="_blank" style="color: black;">
                     <img src="https://im.qq.com/favicon.ico" style="width: 32px;">
                     <p>昵称：螂海</p>
@@ -149,7 +156,7 @@
                 <h1>目前所管理的网站</h1>
                 <hr style="width: 60%;">
                 <!--螂海的个人博客-->
-                <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(imgs/螂海の个人blog.png);background-repeat: no-repeat;background-size: auto;box-shadow: 0px 0px 15px #888888;">
+                <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(imgs/螂海の个人blog.png);background-repeat: no-repeat;background-size: auto;box-shadow: 0px 0px 15px #888888;">
                     <a href="https://xjlanghai.github.io/" target="_blank">
                         <img src="https://xjlanghai.github.io/blog/favicon.ico" style="width: 32px;">
                         <span style="color: white;">https://xjlanghai.github.io/</span>
@@ -161,7 +168,7 @@
                 </div>
                 <br>
                 <!--〔R18〕次次与淫乱的业枫市-->
-                <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(https://p.qlogo.cn/gh/781515741/781515741/140);background-repeat: no-repeat;background-size: 100%;box-shadow: 0px 0px 15px #888888;">
+                <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(https://p.qlogo.cn/gh/781515741/781515741/140);background-repeat: no-repeat;background-size: 100%;box-shadow: 0px 0px 15px #888888;">
                     <a href="http://cicixiansheng.ml/" target="_blank">
                         <img src="https://p.qlogo.cn/gh/781515741/781515741/140" style="width: 32px;">
                         <span style="color: white;">http://cicixiansheng.ml/</span>
@@ -173,7 +180,7 @@
                 </div>
                 <br>
                 <!--167号世界-->
-                <div style="margin:0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(imgs/167号世界.png);background-repeat: no-repeat;background-size: auto;box-shadow: 0px 0px 15px #888888;">
+                <div style="margin: 0 auto;width: 30%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;background-image: url(imgs/167号世界.png);background-repeat: no-repeat;background-size: auto;box-shadow: 0px 0px 15px #888888;">
                     <a href="http://the-167-world.tk/" target="_blank">
                         <img src="https://xjlanghai.github.io/167/img/167图标.png" style="width: 32px;">
                         <span style="color: white;">http://the-167-world.tk/</span>
