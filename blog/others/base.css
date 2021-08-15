@@ -7,8 +7,8 @@
     src: url(../fonts/Monda.ttf);
 }
 
-@media screen and (max-width: 820px) { 
-    body {width: 820px;}  
+@media screen and (max-width: 1000px) { 
+    body {width: 1000px;}  
     } 
 
 body {
