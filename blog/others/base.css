@@ -18,6 +18,13 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
+.字体变色 {
+    -webkit-transition: 0.5s;
+}
+.字体变色:hover {
+    color: black;
+}
+
 ::selection {
     background:rgb(255, 230, 230);
     color:#555;
