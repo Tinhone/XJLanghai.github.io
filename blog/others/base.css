@@ -2,6 +2,10 @@
     font-family: 宋;
     src: url(../fonts/方正清刻本悦宋.ttf);
 }
+@font-face {
+    font-family: Monda;
+    src: url(../fonts/Monda.ttf);
+}
 
 @media screen and (max-width: 820px) { 
     body {width: 820px;}  

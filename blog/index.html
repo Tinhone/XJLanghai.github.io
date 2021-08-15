@@ -11,6 +11,20 @@
         <script src="others/love.js"></script>
         <script src="others/jquery-1.8.3.min.js"></script>
         <link rel="stylesheet" href="live2d/waifu.css">
+        <style>
+            #变色bg {
+                -webkit-transition: 0.5s;
+            }
+            #变色bg:hover {
+                background-color: black;
+            }
+            #变色 {
+                -webkit-transition: 0.5s;
+            }
+            #变色:hover {
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <!--背景音乐-->
@@ -41,9 +55,9 @@
                 <img src="favicon(64x64).ico" style="height: 60px;width: 60px;border-radius: 50%;">
                 <span id="主标题">螂海の个人blog</span>
             </div>
-            <ul>
+            <ul style="font-family: Monda;">
                 <li onclick="a(0)">HOME</li>
-                <li onclick="a(1)">CONTENTS</li>
+                <li onclick="a(1)">CATEGORIES</li>
                 <li onclick="a(2)">ABOUT</li>
             </ul>
         </div>
@@ -54,12 +68,31 @@
             <!--导航图-->
             <img src="imgs/HOME.png" style="width: 100%;">
             <p style="color:white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 350px;">静坐常思己过，闲谈莫论人非。</p>
+
+            <!--正文-->
+            <div style="height: 10vh;"></div>
+            <div style="margin:0 auto;width: 50%;text-align: left;background-color: rgb(230, 230, 230);padding: 20px;border-radius: 20px;">
+                <h1 style="text-align: center;">使用GitHub搭建个人博客</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用GitHub搭建个人博客，将网页存放至仓库即可</p>
+                <div id="变色bg" style="margin:0 auto;text-align: center;width: 20%;padding: 1%;border:3px solid black;">
+                    <a href="pages/使用GitHub搭建个人博客.html" target="_blank" style="color: gray;">
+                        <div id="变色">阅读全文»</div>
+                    </a>
+                </div>
+            </div>
         </div>
 
 
-        <!--CONTENTS-->
+        <!--CATEGORIES-->
         <div id="a2" style="display: none;">
+            <!--导航图-->
+            <img src="imgs/CATEGORIES.png" style="width: 100%;">
+            <p style="color: white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 525px;">人有悲欢离合，月有阴晴圆缺，此事古难全。</p>
 
+            <!--正文-->
+            <div>
+
+            </div>
         </div>
 
 
@@ -67,7 +100,7 @@
         <div id="a3" style="display: none;">
             <!--导航图-->
             <img src="imgs/ABOUT.png" style="width: 100%;">
-            <p style="color:white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 525px;">人有悲欢离合，月有阴晴圆缺，此事古难全。</p>
+            <p style="color:white;font-family: 宋;font-size: 25px;position: absolute;top: 60px;padding: 10%;width: 450px;">弱小和无知不是生存的障碍，傲慢才是。</p>
             <br><br><br><br><br><br><br><br><br><br>
 
             <!--各平台账号-->
