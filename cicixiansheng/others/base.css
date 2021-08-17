@@ -6,25 +6,3 @@ body {
 a {
     text-decoration: none;
 }
-
-.标签 {
-    padding-top: 6px;
-    padding-block-end: 6px;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius: 100vw;
-    border: 1px solid rgb(218, 84, 124);
-    background-color: rgb(251, 239, 244);
-    color: rgb(218, 84, 124);
-}
-
-.阅读按钮 {
-    padding-top: 10px;
-    padding-block-end: 10px;
-    padding-left: 42px;
-    padding-right: 42px;
-    border-radius: 100vw;
-    width: 75px;
-    background-color: rgb(245, 106, 147);
-    color: white;
-}
